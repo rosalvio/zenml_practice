@@ -9,12 +9,14 @@
         "editor.formatOnSave": true,
         "files.insertFinalNewline": true,
         "editor.defaultFormatter": "charliermarsh.ruff",
-        "workbench.startupEditor": "none"
+        "workbench.startupEditor": "none",
+        "ruff.configuration": "/workspaces/zenml_practice/ruff.toml"
       },
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
         "/workspaces/vscode-quickstart/.devcontainer/extensions/zenml-vscode-quickstart-0.0.1.vsix",
-        "charliermarsh.ruff"
+        "charliermarsh.ruff",
+        "tamasfe.even-better-toml"
       ]
     }
   },
