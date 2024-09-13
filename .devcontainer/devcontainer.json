@@ -16,7 +16,8 @@
       "extensions": [
         "/workspaces/vscode-quickstart/.devcontainer/extensions/zenml-vscode-quickstart-0.0.1.vsix",
         "charliermarsh.ruff",
-        "tamasfe.even-better-toml"
+        "tamasfe.even-better-toml",
+        "mechatroner.rainbow-csv"
       ]
     }
   },
